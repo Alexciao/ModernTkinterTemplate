@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "moderntkintertemplate"
+version = "0.1.0"
+description = ""
+authors = ["Alexciao <alex.corazza@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sv-ttk = "^2.6.0"
+pywinstyles = "^1.8"
+darkdetect = "^0.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
